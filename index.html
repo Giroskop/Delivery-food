@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delivery Food - доставка</title>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <header class="header ">
+      <img src="img/logo.svg" alt="Picture" class="logo animate__backInDown">
+      <input type="text" class="input adress_input" placeholder="Адрес доставки">
+      <div class="buttons">
+        <button class="button button_primary">
+          <img src="img/user.svg" alt="" class="button-icon">
+          <span class="button-text">Войти</span>
+        </button>
+        <button class="button button_secondary" id="cart-button">
+          <img src="img/shopping-cart.svg" alt="">
+          <span class="button-text">Корзина</span>
+        </button>
+      </div>
+    </header>
+  </div>
+  <main class="main">
+    <div class="container">
+      <section class="promo">
+        <h1 class="promo_title">Онлайн сервис <br>доставки еды на дом</h1>
+        <p class="promo_text">Блюда из любимого ресторана привезет курьер в перчатках, маске и с антисептиком</p>
+      </section>
+  
+      <section class="restaurans">
+        <div class="section_heading">
+          <h2 class="section-title">Рестораны</h2>
+          <input type="text" placeholder="Поиск" class="input input_search">
+        </div>
+        <div class="cards">
+          <div class="card">
+            <img src="img/image.png" alt="" class="card_image">
+            <div class="card_text">
+              <div class="card_heading">
+                <h3 class="card_title">Пицца плюс</h3>
+                <span class="card_tag">50 мин</span>
+              </div>
+              <div class="card_info">
+                <div class="rating">
+                  <img src="img/Vector.svg" alt="">
+                  4.5</div>
+                <div class="price">От 900р</div>
+                <div class="category">Пицца</div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/image2.png" alt="" class="card_image">
+            <div class="card_text">
+              <div class="card_heading">
+                <h3 class="card_title">Тануки</h3>
+                <span class="card_tag">20 мин</span>
+              </div>
+              <div class="card_info">
+                <div class="rating">
+                  <img src="img/Vector.svg" alt="">
+                  4.3</div>
+                <div class="price">От 600р</div>
+                <div class="category">Роллы/суши</div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/image3.png" alt="" class="card_image">
+            <div class="card_text">
+              <div class="card_heading">
+                <h3 class="card_title">Кролик</h3>
+                <span class="card_tag">40 мин</span>
+              </div>
+              <div class="card_info">
+                <div class="rating">
+                  <img src="img/Vector.svg" alt="">
+                  4</div>
+                <div class="price">От 1700р</div>
+                <div class="category">Дикое мясо</div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/image4.png" alt="" class="card_image">
+            <div class="card_text">
+              <div class="card_heading">
+                <h3 class="card_title">Баклажан</h3>
+                <span class="card_tag">30 мин</span>
+              </div>
+              <div class="card_info">
+                <div class="rating">
+                  <img src="img/Vector.svg" alt="">
+                  4.8</div>
+                <div class="price">От 1000р</div>
+                <div class="category">Овощи</div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/image5.png" alt="" class="card_image">
+            <div class="card_text">
+              <div class="card_heading">
+                <h3 class="card_title">Просто Повар</h3>
+                <span class="card_tag">25 мин</span>
+              </div>
+              <div class="card_info">
+                <div class="rating">
+                  <img src="img/Vector.svg" alt="">
+                  3.3</div>
+                <div class="price">От 600р</div>
+                <div class="category">Странная кухня</div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/image6.png" alt="" class="card_image">
+            <div class="card_text">
+              <div class="card_heading">
+                <h3 class="card_title">Домашний очаг</h3>
+                <span class="card_tag">45 мин</span>
+              </div>
+              <div class="card_info">
+                <div class="rating">
+                  <img src="img/Vector.svg" alt="">
+                  5</div>
+                <div class="price">От 1400р</div>
+                <div class="category">Домашняя еда</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+       <div class="footer-block">
+         <img src="img/logo.svg" alt="logo" class="logo footer-logo">
+         <nav class="footer-nav">
+           <a href="#" class="footer-link">Ресторанам</a>
+           <a href="#" class="footer-link">Курьерам</a>
+           <a href="#" class="footer-link">Что-то</a>
+           <a href="#" class="footer-link">Контакты</a>
+         </nav>
+         <div class="social-links">
+           <a href="#" class="social-link"><img src="img/Group 1.svg" alt=""></a>
+           <a href="#" class="social-link"><img src="img/Group 2.svg" alt=""></a>
+           <a href="#" class="social-link"><img src="img/Group 3.svg" alt=""></a>
+         </div>
+       </div>
+    </div>
+  </footer>
+
+  <div class="modal">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h2 class="modal-title">Корзина</h2>
+        <button class="close">Закрыть</button>
+      </div>
+      <div class="modal-body">
+        <div class="foods-row">
+          <span class="food-name">Ролл угорь стандарт</span>
+          <strong class="food-price">250р</strong>
+          <div class="food-counter">
+            <button class="counter-button">-</button>
+            <span class="counter">1</span>
+            <button class="counter-button">+</button>
+
+          </div>
+        </div>
+        <div class="foods-row">
+          <span class="food-name">Ролл угорь стандарт</span>
+          <strong class="food-price">250р</strong>
+          <div class="food-counter">
+            <button class="counter-button">-</button>
+            <span class="counter">1</span>
+            <button class="counter-button">+</button>
+
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <span class="price-tag">1234</span>
+        <div class="footer-buttons">
+          <button class="button button_primary">Оформить заказ</button>
+          <button class="button">Отмена</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
